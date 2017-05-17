@@ -1,0 +1,13 @@
+On which exchanges will I be able to buy and sell shares?
+What kind of orders can I place?
+Which shares will I be able to buy and sell?
+Do I get online confirmation of orders and trades?
+Is it possible that an order is accepted by the exchange but a trade does not take place against it?
+Is an order always executed for the full quantity?
+Is an order always executed at one price?
+Can I modify my order?
+Can I cancel my order into the system?
+Can I enter orders after the trading hours?What happens to such orders?
+Do I need to have money before buying of shares?
+Can I go short?
+Can I trade on margin? 

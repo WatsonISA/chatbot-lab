@@ -1,0 +1,24 @@
+---
+declared-services:
+  retrieve-and-rank-service:
+    label: retrieve_and_rank
+    plan: standard
+  document-conversion-service:
+    label: document_conversion
+    plan: standard	
+  conversation-service:
+    label: conversation
+    plan: standard
+
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  name: ChatbotLab
+  host: ChatbotLab
+  disk_quota: 256M
+  services:
+  - retrieve-and-rank-service
+  - document-conversion-service
+  - conversation-service
+ 
