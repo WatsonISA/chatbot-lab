@@ -30,7 +30,7 @@ var watson = require('watson-developer-cloud'); // watson sdk
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
 
-var vcapServices = require('vcap_services@0.3.4');
+var vcapServices = require('vcap_services');
 var url = require('url'), bodyParser = require('body-parser'),
 	http = require('http'),
 	https = require('https'),
