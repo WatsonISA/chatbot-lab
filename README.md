@@ -1,3 +1,4 @@
+![Bluemix Deployments](https://deployment-tracker.mybluemix.net/stats/49d75098a98a520d8944bbb1d3560dc5/badge.svg)
 # Implementing a chat bot using Watson Cognitive Services
 
 Welcome! These instructions describe the pre-requisites to be completed before attending the lab session. Please follow these steps to ensure that you are fully prepared to participate on the day of the lab.
@@ -12,7 +13,7 @@ Welcome! These instructions describe the pre-requisites to be completed before a
 
 NOTE: Perform steps 1-6 OR click the Deploy to Bluemix button to do it all at once!
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/WatsonISA/chatbot-lab)
+[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/49d75098a98a520d8944bbb1d3560dc5/button.svg)](https://bluemix.net/deploy?repository=https://github.com/WatsonISA/chatbot-lab)
 
 1. Log in to your Bluemix account before deploying.
 If already logged in, then ignore this step.
