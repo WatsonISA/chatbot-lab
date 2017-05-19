@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM/watson-banking-chatbot.git"
+    "url": "https://github.com/WatsonISA/chatbot-lab.git"
   },
   "engines": {
     "node": "4.x"
