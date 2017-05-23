@@ -77,7 +77,7 @@ var retrieve = new rnr({
 
 // Endpoint to be called from the client side
 app.post('/api/message', function(req, res) {
-var workspace = vcapServices.WORKSPACE_ID || '';
+var workspace = vcapServices.WORKSPACE_ID || '' || vcapServices.getCredentials('WORKSPACE_ID');
 
 	if ( !workspace || workspace === '<workspace-id>' ) {
 		return res.json( {
