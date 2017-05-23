@@ -40,7 +40,7 @@ var conversation_credentials = vcapServices.getCredentials('conversation');
 var rnr_cred =vcapServices.getCredentials('retrieve_and_rank');
 
 
-var WORKSPACE_ID = '5d9644d7-1a4b-43e3-8913-ef5f1df953b9';
+var WORKSPACE_ID = '';
 
 var app = express();
 
@@ -167,7 +167,7 @@ function checkForLookupRequests(data, callback){
 	console.log('checkForLookupRequests');
 
 	if(data.context && data.context.action && data.context.action.lookup && data.context.action.lookup!= 'complete'){
-		var workspace = process.env.WORKSPACE_ID || WORKSPACE_ID;
+		var workspace = vcapServices.WORKSPACE_ID || '';
 	    var payload = {
 			workspace_id : workspace,
 			context : data.context,
