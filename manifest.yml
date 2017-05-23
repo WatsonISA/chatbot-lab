@@ -15,7 +15,6 @@ applications:
   memory: 512M
   instances: 1
   name: ChatbotLab
-  host: ChatbotLab
   disk_quota: 256M
   services:
   - retrieve-and-rank-service
