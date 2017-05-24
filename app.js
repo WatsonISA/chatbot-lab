@@ -70,8 +70,8 @@ var retrieve = new rnr({
 	  username: rnr_cred.username || ''  						//Retrieve & Rank Service username
 	});
 
-	var clusterid = vcapServices.CLUSTER_ID || '';
-	var collectionname= vcapServices.COLLECTION_NAME || '' ;
+	var clusterid = vcapServices.CLUSTER_ID || '' || vcapServices.getCredentials('CLUSTER_ID');
+	var collectionname= vcapServices.COLLECTION_NAME || '' || vcapServices.getCredentials('COLLECTION_NAME');
 	var ranker_id = vcapServices.RANKER_ID || '';
 
 
